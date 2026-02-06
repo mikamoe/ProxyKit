@@ -1,0 +1,10 @@
+#!name=哔哩哔哩解锁1080P高码率+4K画质@ddgksf2013
+#!desc=全面净化
+#!category=ddgksf2013
+
+[Script]
+# > BiliBili_哔哩哔哩_1080P高码率+4K画质[番剧和影视除外]@ddgksf2013
+bilibili.ads = type=http-response, pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?, script-path=https://ddgksf2013.top/scripts/bilibili.ads.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% -broadcast.chat.bilibili.com, -cm.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, app.bilibili.com, api.live.bilibili.com, *.bilibili.com, *.bili*.*, *.bilibili.*, grpc.biliapi.net, *biliapi.net
