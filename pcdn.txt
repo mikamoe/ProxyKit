@@ -21,4 +21,5 @@
 /.*p2p.*qq\.com/
 /.*pcdn.*biliapi.net/
 /.*pcdn.*youku.com/
+
 ||pcdn.yximgs.com
